@@ -1,37 +1,56 @@
 header{
     background-color: black;
- padding-left: 80px;
- padding-top: 10px;
-
+    padding-left: 80px;
+    padding-top: 10px;
+    
 }
 h1{
-
-color: red;
+    color: red;
 }
 body{
-margin: 0px;
-background-color: black;
+    margin: 0px;
+    background-color: black;
 }
 h2{
-    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 }
 p{
-
-width: 500px;
-font-size: 22px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, sans-serif;
-color: white;
+    width: 500px;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+section{
+    display: flex;
+    justify-content: space-around;
 }
 hr{
     height: 6px;
     background-color: aliceblue;
 }
-section{
+h3{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.carrossel-de-filmes{
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    overflow-x: auto;
 }
-h3{color: aliceblue;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-padding: ;}
+
+.filmes{
+    display: flex;
+    gap: 10px;
+}
+.filmes img{
+    width: 600px;
+}
+.filmes img:hover{
+    border: 5px solid red;
+}
